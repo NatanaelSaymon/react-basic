@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 296px;
+    background: #0b1b2b;
+
+    position: relative;
+}
+
+.logo {
+    width: 148px;
+    height: 98px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media(max-width: 1024px) {
+    .headerImgLeft,
+    .headerImgRight {
+        display: none;
+    }
+}
