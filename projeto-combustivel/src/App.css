@@ -45,3 +45,24 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.result {
+    background-color: #00b63e;
+    width: 100%;
+    max-width: 420px;
+    padding: 20px 28px;
+    border-radius: 4px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+
+.result-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 16px
+}
